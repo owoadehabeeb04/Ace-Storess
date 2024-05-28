@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+
+
+
+
+li {
+    list-style-type: none;
+    color: var(--grey-2, #818181);
+font-family: 'Open Sans';
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+.btn {
+    display: flex;
+    gap: 0.625em;
+}
+.nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+    display: none;
+/* 	
+	opacity: 0; */
+	font-size: 1.8rem;
+}
+.mobilebtn {
+    display: none;
+}
+@media (max-width:1000px) {
+    .Nav{
+        padding: 1rem 1rem;
+    }
+    ul {
+        gap: 1rem;
+        padding-left: 0rem;
+    }
+}
+
+@media (max-width:800px) {
+    .Nav {
+        padding-top: 0rem;
+    }
+    .navlinks {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        background-color: black;
+        transform: translateY(-100%);
+        transition: transform 0.5s ease-in-out;
+        z-index: 100;
+      }
+      
+    .btn {
+        display: none;
+    }
+    .logo {
+        margin-top: 1.5rem;
+    }
+    .hamburger {
+        margin-top: 1.5rem;
+    }
+    .mobilebtn {
+        display: flex;
+        flex-direction: row;
+        
+    }
+    /* .btn {
+    position: fixed;
+		 top: -100vh; 
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: black;
+        z-index: 150;
+    } */
+    .listed {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+    }
+     .responsive_nav {
+		transform: translateY(-100vh);
+
+	}
+
+    .nav-btn {
+	display: block;
+		opacity: 1;
+        color: white;
+	}
+    .nav-close-btn {
+		position: absolute;
+		top: 1rem;
+		right: 2rem;
+	}
+    .listed li a{
+        color: white;
+    }
+
+}
+.hamburger {
+    color: black ;
+}
+@media (max-width: 800px) {
+    .nav-btn {
+      display: block;
+      opacity: 1;
+      color: white;
+    }
+  
+    .nav-close-btn {
+      position: absolute;
+      top: 1rem;
+      right: 2rem;
+      display: none; /* Hide close button initially */
+    }
+  
+    .mobilebtn {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .responsive_nav {
+      transform: translateY(-100%);
+    }
+  }
+  

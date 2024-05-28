@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+.btnexplor{
+
+background: linear-gradient(231deg, #EAEAEA 0%, rgba(239, 239, 239, 0.87) 100%);
+
+}
+.innersemifooter {
+
+background-image: url(../img/semifootercloud.svg);
+
+}
+
+.innersemifooter::after {
+    
+    background-image: url(../img/semifootercloud2.svg);
+
+}
+
+
+/* @media (max-width: 1200px){
+    .innersemifooter::after {
+        content: "";
+      display: none;
+    }
+} */
+@media (max-width: 900px){
+    .innersemifooter {
+        background-image: none;
+    }
+}
+

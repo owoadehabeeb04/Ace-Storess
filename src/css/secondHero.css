@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+button {
+    transition: all 0.3s ease-in;
+}
+.discount button:hover {
+    scale: 1;
+}
+button:hover {
+    scale: 1.1;
+}
+.btnhero2 {
+
+/* margin: 0 auto; */
+background: linear-gradient(231deg, #EAEAEA 0%, rgba(239, 239, 239, 0.87) 100%);
+}
+
+
+p {
+    color: var(--grey-2, #818181);
+}
+
+    
+
+
+

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+
+
+.itemsfooter:nth-child(1){
+    position: absolute;
+    top: 65%;
+    left: 8%;
+}
+.itemsfooter:nth-child(2){
+    position: absolute;
+    top: 80%;
+    left: 28%;
+}
+.itemsfooter:nth-child(3){
+    position: absolute;
+    top: 85%;
+    left: 46%;
+}
+.itemsfooter:nth-child(4){
+    position: absolute;
+    top: 80%;
+    left: 68%;
+}
+.itemsfooter:nth-child(5){
+    position: absolute;
+    top: 65%;
+    left: 85%;
+}
+@media (max-width: 1024px) {
+   
+    .itemsfooter:nth-child(1){
+        position: absolute;
+        top: 68%;
+        left: 8%;
+    }
+    .itemsfooter:nth-child(5){
+        position: absolute;
+        top: 68%;
+        left: 85%;
+         border-radius: 1.25rem;
+/* background: linear-gradient(267deg, #131313 0%, #252525bd 103.13%);
+box-shadow: 6px -6px 12px 0px rgba(0, 0, 0, 0.25) inset, -6px -6px 9px 0px rgba(121, 121, 121, 0.25) inset, 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+backdrop-filter: blur(6px);  */
+    }
+}
+

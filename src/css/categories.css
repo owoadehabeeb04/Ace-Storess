@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+button {
+    cursor: pointer;
+}
+.thewears:first-child{
+    border-radius: 0.75rem;
+border: 1px solid #F1F1F1;
+background: linear-gradient(189deg, #0666EB 0%, rgba(4, 42, 96, 0.74) 100%);
+box-shadow: -6px -6px 24px 0px #5B6675 inset, 6px 6px 24px 0px #1B70E5 inset, 0px 4px 18px 0px rgba(0, 0, 0, 0.12);
+backdrop-filter: blur(3.5px);
+}
+.thewears:nth-child(2){
+    border-radius: 0.75rem;
+border: 1px solid #F1F1F1;
+background: linear-gradient(189deg, #FF491F 0%, #981E02 100%);
+box-shadow: -6px -6px 24px 0px #9A2613 inset, 6px 6px 24px 0px #F24225 inset, 0px 4px 8px 0px rgba(0, 0, 0, 0.12);
+backdrop-filter: blur(3.5px);
+}
+.thewears:nth-child(3){
+    border-radius: 0.75rem;
+border: 1px solid #F1F1F1;
+background: linear-gradient(189deg, #C9DA18 0%, #859008 100%);
+box-shadow: -6px -6px 24px 0px #849200 inset, 6px 6px 24px 0px #D2E700 inset, 0px 4px 8px 0px rgba(0, 0, 0, 0.12);
+backdrop-filter: blur(3.5px);
+}
+.thewears:nth-child(4){
+    border-radius: 0.75rem;
+    border: 1px solid #F1F1F1;
+    background: linear-gradient(189deg, #9B00F3 0%, #680E9B 100%);
+    box-shadow: -6px -6px 24px 0px #59008C inset, 6px 6px 24px 0px #A609FF inset, 0px 4px 8px 0px rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(3.5px);
+}
+.thewears:nth-child(5){
+    border-radius: 0.75rem;
+border: 1px solid #F1F1F1;
+background: linear-gradient(189deg, #FFE14D 0%, #BD9D00 100%);
+box-shadow: -6px -6px 24px 0px #B89903 inset, 6px 6px 24px 0px #FFD816 inset, 0px 4px 8px 0px rgba(0, 0, 0, 0.12);
+backdrop-filter: blur(3.5px);
+
+}
+
